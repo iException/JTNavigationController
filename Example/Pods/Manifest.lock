@@ -1,0 +1,14 @@
+PODS:
+  - JTNavigationController (0.1.0)
+
+DEPENDENCIES:
+  - JTNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  JTNavigationController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JTNavigationController: 2f296a9ce710508c63338e23cb6f2c65d3cb235b
+
+COCOAPODS: 0.39.0

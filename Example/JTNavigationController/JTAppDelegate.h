@@ -1,15 +1,17 @@
 //
-//  JTAppDelegate.h
+//  AppDelegate.h
 //  JTNavigationController
 //
-//  Created by huhuhumian on 02/18/2016.
-//  Copyright (c) 2016 huhuhumian. All rights reserved.
+//  Created by Tian on 16/1/23.
+//  Copyright © 2016年 JiananTian. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface JTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+
 @end
+

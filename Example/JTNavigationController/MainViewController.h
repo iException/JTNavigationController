@@ -1,5 +1,5 @@
 //
-//  JTViewController.h
+//  MainViewController.h
 //  JTNavigationController
 //
 //  Created by Tian on 16/1/23.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JTViewController : UIViewController
+@interface MainViewController : UITabBarController
 
 @end

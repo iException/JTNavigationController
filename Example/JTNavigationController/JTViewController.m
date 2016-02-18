@@ -2,11 +2,13 @@
 //  JTViewController.m
 //  JTNavigationController
 //
-//  Created by huhuhumian on 02/18/2016.
-//  Copyright (c) 2016 huhuhumian. All rights reserved.
+//  Created by Tian on 16/1/23.
+//  Copyright © 2016年 TianJiaNan. All rights reserved.
 //
 
 #import "JTViewController.h"
+#import "UIColor+RandomColor.h"
+#import "UIViewController+JTNavigationExtension.h"
 
 @interface JTViewController ()
 
@@ -14,16 +16,38 @@
 
 @implementation JTViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"Title";
+    self.navigationController.navigationBar.barTintColor = [UIColor randomColor];
+    self.view.backgroundColor = [UIColor randomColor];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Next" style:UIBarButtonItemStylePlain target:self action:@selector(didTapNextButton)];
+    
+//    self.jt_fullScreenPopGestureEnabled = NO; //关闭当前控制器的全屏返回手势
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
+
+- (void)didTapNextButton {
+    JTViewController *viewController = [[JTViewController alloc] init];
+    viewController.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+- (IBAction)didTapPopButton:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (IBAction)didTapPopToButton:(id)sender {
+    [self.navigationController popToViewController:self.jt_navigationController.jt_viewControllers[0] animated:YES];
+}
+
+- (IBAction)didTapPopToRootButton:(id)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+    
+}
+
 
 @end

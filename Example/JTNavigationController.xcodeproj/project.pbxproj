@@ -22,6 +22,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AB61C6BC1C75AC5400A4937D /* JTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB61C6B71C75AC5400A4937D /* JTViewController.xib */; };
+		AB61C6BD1C75AC5400A4937D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB61C6B91C75AC5400A4937D /* MainViewController.m */; };
+		AB61C6BE1C75AC5400A4937D /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AB61C6BB1C75AC5400A4937D /* UIColor+RandomColor.m */; };
 		D191A3F245E3722EA5A297F4 /* Pods_JTNavigationController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7742BDDD1FE15D87B165485 /* Pods_JTNavigationController_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +66,11 @@
 		6A4C9C8F0536EE0C655504F3 /* Pods-JTNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTNavigationController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JTNavigationController_Tests/Pods-JTNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9E05AB1F492E7A99B002857D /* Pods-JTNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JTNavigationController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JTNavigationController_Example/Pods-JTNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AB61C6B71C75AC5400A4937D /* JTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JTViewController.xib; sourceTree = "<group>"; };
+		AB61C6B81C75AC5400A4937D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AB61C6B91C75AC5400A4937D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AB61C6BA1C75AC5400A4937D /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		AB61C6BB1C75AC5400A4937D /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
 		D064613B6FA307251EBCF98D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E7742BDDD1FE15D87B165485 /* Pods_JTNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -141,6 +149,11 @@
 		6003F593195388D20070C39A /* Example for JTNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				AB61C6B71C75AC5400A4937D /* JTViewController.xib */,
+				AB61C6B81C75AC5400A4937D /* MainViewController.h */,
+				AB61C6B91C75AC5400A4937D /* MainViewController.m */,
+				AB61C6BA1C75AC5400A4937D /* UIColor+RandomColor.h */,
+				AB61C6BB1C75AC5400A4937D /* UIColor+RandomColor.m */,
 				6003F59C195388D20070C39A /* JTAppDelegate.h */,
 				6003F59D195388D20070C39A /* JTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -278,6 +291,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				AB61C6BC1C75AC5400A4937D /* JTViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,8 +405,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* JTAppDelegate.m in Sources */,
+				AB61C6BE1C75AC5400A4937D /* UIColor+RandomColor.m in Sources */,
 				6003F5A7195388D20070C39A /* JTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				AB61C6BD1C75AC5400A4937D /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

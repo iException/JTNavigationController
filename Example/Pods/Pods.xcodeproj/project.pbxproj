@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DDD1E1F06768F99A6F147464788188 /* Pods-JTNavigationController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A802186A8E9E3D28B4079878C96F64 /* Pods-JTNavigationController_Example-dummy.m */; };
+		1D32C50B1E1A61FB8BA62325D97B7F9F /* JTNavigationController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 32943857FE5689E7995CA25687CA6063 /* JTNavigationController.bundle */; };
+		394B94848812C0E0ED5E117ADFA1846A /* JTNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9611C80282B767C82CBC758F31D663E /* JTNavigationController-dummy.m */; };
+		5D53B50737889976AD6E6F8A5B2AB28B /* UIViewController+JTNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F751DFFD63AF538C407EA7ED8425A13 /* UIViewController+JTNavigationExtension.m */; };
+		750E4D31413D3216C25462F8EB1444CA /* JTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D688DABB2AC70213E58837DD0E9F5AD1 /* JTNavigationController.m */; };
+		79629D640EB8395EB1A67312B9F42CFA /* Pods-JTNavigationController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27982AFC772BD52BC87D63A07C90DA71 /* Pods-JTNavigationController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F1CC65DB38DE312A8257F676277ADB9 /* UIViewController+JTNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0730638BA2E2C9FCA9616E553325D9DC /* UIViewController+JTNavigationExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC87FB65FEFA945113550BEA3120B12D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C20BA15618B37D1D0F2A6B176FCDFF2E /* backImage@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 648950DA5C10224821AEC2F7AC7C3344 /* backImage@2x.png */; };
+		C6B1AF4522FD76CBAC75664DAFF06B6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D18350AF67799065EC6BB4B977232099 /* Pods-JTNavigationController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7970E750A22738891293F71970AC133E /* Pods-JTNavigationController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2DE3DD9AA948D1C4722BB715593571A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D8571153D95E70CADE23F1D45155BA07 /* JTNavigationController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87BC0D33365F14DEAC74EA29F10DB1A9 /* JTNavigationController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFE3A8DE809614CD432F1B3F7FEA4C49 /* backImage@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 08358740B58A21797E64FC7574224CE7 /* backImage@3x.png */; };
+		E29F81316390D62E792CC610B0E354D0 /* JTNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 09957A9E33B175B6FE5C5DB57C12805B /* JTNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B2E866EA348A4696F6AED565BBA524 /* Pods-JTNavigationController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0BAEBEB2BC43433477ABFE1596EFA3 /* Pods-JTNavigationController_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BC52545D1ED6EA0271DF9597B596D2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E40466060D01B737E2BE078C7C6CFBD;
+			remoteInfo = JTNavigationController;
+		};
+		1B0E464B547EE82C86296FDC70EAE1E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E40466060D01B737E2BE078C7C6CFBD;
+			remoteInfo = JTNavigationController;
+		};
+		F3C4B6A216CD3D4F05BB1BE9D45A1982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C4D21687E9ED8E7AA7E688456B2109C;
+			remoteInfo = "JTNavigationController-JTNavigationController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0315807C25AE5E816D576AF79C53C6E1 /* JTNavigationController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTNavigationController-prefix.pch"; sourceTree = "<group>"; };
+		0730638BA2E2C9FCA9616E553325D9DC /* UIViewController+JTNavigationExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JTNavigationExtension.h"; sourceTree = "<group>"; };
+		08358740B58A21797E64FC7574224CE7 /* backImage@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "backImage@3x.png"; sourceTree = "<group>"; };
+		0902659FB988C799DFA0DF97B321092C /* Pods-JTNavigationController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTNavigationController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		09957A9E33B175B6FE5C5DB57C12805B /* JTNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JTNavigationController.h; sourceTree = "<group>"; };
+		0B4B0643AA0DA7CACED16D607EF4A78E /* Pods-JTNavigationController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JTNavigationController_Tests.modulemap"; sourceTree = "<group>"; };
+		174C2D87DF2B36648FB411440DCD3341 /* Pods-JTNavigationController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JTNavigationController_Tests-resources.sh"; sourceTree = "<group>"; };
+		24FA1EC0D403D82463AAEB6148FB4B08 /* JTNavigationController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JTNavigationController.modulemap; sourceTree = "<group>"; };
+		27982AFC772BD52BC87D63A07C90DA71 /* Pods-JTNavigationController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JTNavigationController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2D1630359F1CBEBB16400F62C0D83F57 /* Pods-JTNavigationController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JTNavigationController_Example-resources.sh"; sourceTree = "<group>"; };
+		32943857FE5689E7995CA25687CA6063 /* JTNavigationController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTNavigationController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		329A1ABF14FCA46C28335750AABC93C7 /* Pods-JTNavigationController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JTNavigationController_Example.modulemap"; sourceTree = "<group>"; };
+		360D114B0176EDC87280857FC89CA2F3 /* Pods-JTNavigationController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JTNavigationController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F751DFFD63AF538C407EA7ED8425A13 /* UIViewController+JTNavigationExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JTNavigationExtension.m"; sourceTree = "<group>"; };
+		4A0BAEBEB2BC43433477ABFE1596EFA3 /* Pods-JTNavigationController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JTNavigationController_Tests-dummy.m"; sourceTree = "<group>"; };
+		4C8903C6AE67F2F0E923FACFDB1E16E3 /* Pods-JTNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		50EE3D6490858B306BD509380060EE2D /* Pods_JTNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55907B995358C90E8BD1FFAA2497101D /* Pods-JTNavigationController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JTNavigationController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63C655C723022FA4C1E88A0384D14B7F /* JTNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		648950DA5C10224821AEC2F7AC7C3344 /* backImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "backImage@2x.png"; sourceTree = "<group>"; };
+		6D657E7ADE066C71B5CB8BE84764C093 /* Pods-JTNavigationController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JTNavigationController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6FCA5A0A59285851F7ABA1B903BA5AF4 /* Pods-JTNavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTNavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		705624DC66A38390032A43C300AE0CBC /* Pods-JTNavigationController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTNavigationController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		74A802186A8E9E3D28B4079878C96F64 /* Pods-JTNavigationController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JTNavigationController_Example-dummy.m"; sourceTree = "<group>"; };
+		7970E750A22738891293F71970AC133E /* Pods-JTNavigationController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JTNavigationController_Example-umbrella.h"; sourceTree = "<group>"; };
+		87BC0D33365F14DEAC74EA29F10DB1A9 /* JTNavigationController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTNavigationController-umbrella.h"; sourceTree = "<group>"; };
+		904756A200AF1A1CDF2DE6AD1B958E44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95A2753BE57BE368868EE18EF0381B8 /* Pods-JTNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A9611C80282B767C82CBC758F31D663E /* JTNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTNavigationController-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C06C24D1D554BAF89D1CA86C88E0AB37 /* Pods-JTNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C55F0A0C370957546D6A733FF42B17B5 /* JTNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTNavigationController.xcconfig; sourceTree = "<group>"; };
+		C8393E401E856C164ECA7B3984801B94 /* Pods_JTNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JTNavigationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2A50C7184959C5FA445D79B0C0422D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D688DABB2AC70213E58837DD0E9F5AD1 /* JTNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JTNavigationController.m; sourceTree = "<group>"; };
+		F1BC9776C9A7EDD16A46131AED903BE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6D06FEC4777754175056C6F90C81A3 /* Pods-JTNavigationController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JTNavigationController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		436D2AD39E678F7F4431F45373677ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B1AF4522FD76CBAC75664DAFF06B6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B2D0ABC283DDCD0A65ACD20A013BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC87FB65FEFA945113550BEA3120B12D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C889E8C5A187CFB5B914E7946E88747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18005F1972FCAC548451BC365B716F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DE3DD9AA948D1C4722BB715593571A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33BB4EE4560F76C6063A332F23E985AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				648950DA5C10224821AEC2F7AC7C3344 /* backImage@2x.png */,
+				08358740B58A21797E64FC7574224CE7 /* backImage@3x.png */,
+				09957A9E33B175B6FE5C5DB57C12805B /* JTNavigationController.h */,
+				D688DABB2AC70213E58837DD0E9F5AD1 /* JTNavigationController.m */,
+				0730638BA2E2C9FCA9616E553325D9DC /* UIViewController+JTNavigationExtension.h */,
+				3F751DFFD63AF538C407EA7ED8425A13 /* UIViewController+JTNavigationExtension.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		35FD0A7062D346E01A057FD4F9917A65 /* Pods-JTNavigationController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				904756A200AF1A1CDF2DE6AD1B958E44 /* Info.plist */,
+				329A1ABF14FCA46C28335750AABC93C7 /* Pods-JTNavigationController_Example.modulemap */,
+				55907B995358C90E8BD1FFAA2497101D /* Pods-JTNavigationController_Example-acknowledgements.markdown */,
+				705624DC66A38390032A43C300AE0CBC /* Pods-JTNavigationController_Example-acknowledgements.plist */,
+				74A802186A8E9E3D28B4079878C96F64 /* Pods-JTNavigationController_Example-dummy.m */,
+				6D657E7ADE066C71B5CB8BE84764C093 /* Pods-JTNavigationController_Example-frameworks.sh */,
+				2D1630359F1CBEBB16400F62C0D83F57 /* Pods-JTNavigationController_Example-resources.sh */,
+				7970E750A22738891293F71970AC133E /* Pods-JTNavigationController_Example-umbrella.h */,
+				A95A2753BE57BE368868EE18EF0381B8 /* Pods-JTNavigationController_Example.debug.xcconfig */,
+				6FCA5A0A59285851F7ABA1B903BA5AF4 /* Pods-JTNavigationController_Example.release.xcconfig */,
+			);
+			name = "Pods-JTNavigationController_Example";
+			path = "Target Support Files/Pods-JTNavigationController_Example";
+			sourceTree = "<group>";
+		};
+		426FC9A04C2A0E02F09B8030B6F3D271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32943857FE5689E7995CA25687CA6063 /* JTNavigationController.bundle */,
+				63C655C723022FA4C1E88A0384D14B7F /* JTNavigationController.framework */,
+				C8393E401E856C164ECA7B3984801B94 /* Pods_JTNavigationController_Example.framework */,
+				50EE3D6490858B306BD509380060EE2D /* Pods_JTNavigationController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C292518AAB9C0BFDE7C5177687231A1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35FD0A7062D346E01A057FD4F9917A65 /* Pods-JTNavigationController_Example */,
+				87AF94DA9DC35440E91E4649376DCF7D /* Pods-JTNavigationController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		70879D3CC5F4C0877FF601771C662F05 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE3C225FFCC6F66ED336E237D7F8898E /* JTNavigationController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				70879D3CC5F4C0877FF601771C662F05 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				426FC9A04C2A0E02F09B8030B6F3D271 /* Products */,
+				6C292518AAB9C0BFDE7C5177687231A1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87AF94DA9DC35440E91E4649376DCF7D /* Pods-JTNavigationController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F1BC9776C9A7EDD16A46131AED903BE9 /* Info.plist */,
+				0B4B0643AA0DA7CACED16D607EF4A78E /* Pods-JTNavigationController_Tests.modulemap */,
+				FA6D06FEC4777754175056C6F90C81A3 /* Pods-JTNavigationController_Tests-acknowledgements.markdown */,
+				0902659FB988C799DFA0DF97B321092C /* Pods-JTNavigationController_Tests-acknowledgements.plist */,
+				4A0BAEBEB2BC43433477ABFE1596EFA3 /* Pods-JTNavigationController_Tests-dummy.m */,
+				360D114B0176EDC87280857FC89CA2F3 /* Pods-JTNavigationController_Tests-frameworks.sh */,
+				174C2D87DF2B36648FB411440DCD3341 /* Pods-JTNavigationController_Tests-resources.sh */,
+				27982AFC772BD52BC87D63A07C90DA71 /* Pods-JTNavigationController_Tests-umbrella.h */,
+				C06C24D1D554BAF89D1CA86C88E0AB37 /* Pods-JTNavigationController_Tests.debug.xcconfig */,
+				4C8903C6AE67F2F0E923FACFDB1E16E3 /* Pods-JTNavigationController_Tests.release.xcconfig */,
+			);
+			name = "Pods-JTNavigationController_Tests";
+			path = "Target Support Files/Pods-JTNavigationController_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5689910F08774955CF22086E8FD0AF1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC2A50C7184959C5FA445D79B0C0422D /* Info.plist */,
+				24FA1EC0D403D82463AAEB6148FB4B08 /* JTNavigationController.modulemap */,
+				C55F0A0C370957546D6A733FF42B17B5 /* JTNavigationController.xcconfig */,
+				A9611C80282B767C82CBC758F31D663E /* JTNavigationController-dummy.m */,
+				0315807C25AE5E816D576AF79C53C6E1 /* JTNavigationController-prefix.pch */,
+				87BC0D33365F14DEAC74EA29F10DB1A9 /* JTNavigationController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JTNavigationController";
+			sourceTree = "<group>";
+		};
+		EE3C225FFCC6F66ED336E237D7F8898E /* JTNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				FE0578F837C02F7A131ED7AFEAD969B1 /* Pod */,
+				C5689910F08774955CF22086E8FD0AF1 /* Support Files */,
+			);
+			name = JTNavigationController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FE0578F837C02F7A131ED7AFEAD969B1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				33BB4EE4560F76C6063A332F23E985AE /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		801EA8E8F530AA753B9373C21E3545D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18350AF67799065EC6BB4B977232099 /* Pods-JTNavigationController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66BBC16BDCADDA57BA11E0562DCCA4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79629D640EB8395EB1A67312B9F42CFA /* Pods-JTNavigationController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E285A2B1967B5CF777A5BD2B126D09B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8571153D95E70CADE23F1D45155BA07 /* JTNavigationController-umbrella.h in Headers */,
+				E29F81316390D62E792CC610B0E354D0 /* JTNavigationController.h in Headers */,
+				9F1CC65DB38DE312A8257F676277ADB9 /* UIViewController+JTNavigationExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C4D21687E9ED8E7AA7E688456B2109C /* JTNavigationController-JTNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD0C0F40817A38BDEE44A6AF3276B92 /* Build configuration list for PBXNativeTarget "JTNavigationController-JTNavigationController" */;
+			buildPhases = (
+				0FB4BCF31399C9832EEA2BA17742BC8C /* Sources */,
+				6C889E8C5A187CFB5B914E7946E88747 /* Frameworks */,
+				68B50D0626F71130ECED3E1EEE8AAFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JTNavigationController-JTNavigationController";
+			productName = "JTNavigationController-JTNavigationController";
+			productReference = 32943857FE5689E7995CA25687CA6063 /* JTNavigationController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2BAC85881B02A46D3C0F78313E0B4C24 /* Pods-JTNavigationController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A666DC0156D46AD4E59A6C4CF1C3B8F /* Build configuration list for PBXNativeTarget "Pods-JTNavigationController_Example" */;
+			buildPhases = (
+				E61D2817986C66FC4E5F3302D7B4D03B /* Sources */,
+				436D2AD39E678F7F4431F45373677ED5 /* Frameworks */,
+				801EA8E8F530AA753B9373C21E3545D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB4895A618B525315514B7BF89FBADE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-JTNavigationController_Example";
+			productName = "Pods-JTNavigationController_Example";
+			productReference = C8393E401E856C164ECA7B3984801B94 /* Pods_JTNavigationController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F849827EF250166563CF64F9AE27E10 /* Pods-JTNavigationController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC40279FC1D931078B7C8C52FD382DC1 /* Build configuration list for PBXNativeTarget "Pods-JTNavigationController_Tests" */;
+			buildPhases = (
+				44ABE469A0B66F4DDBD2C68D1E42DC80 /* Sources */,
+				A18005F1972FCAC548451BC365B716F9 /* Frameworks */,
+				D66BBC16BDCADDA57BA11E0562DCCA4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED28EF5044E3845E5169A73B35A55CED /* PBXTargetDependency */,
+			);
+			name = "Pods-JTNavigationController_Tests";
+			productName = "Pods-JTNavigationController_Tests";
+			productReference = 50EE3D6490858B306BD509380060EE2D /* Pods_JTNavigationController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E40466060D01B737E2BE078C7C6CFBD /* JTNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75736372018A95C71463FAFE0E2E55E1 /* Build configuration list for PBXNativeTarget "JTNavigationController" */;
+			buildPhases = (
+				51BC31EAC2B6F420F8CEE7CB5A1D1AA6 /* Sources */,
+				57B2D0ABC283DDCD0A65ACD20A013BDA /* Frameworks */,
+				CC07173B671530740AB969F91F3FED94 /* Resources */,
+				E285A2B1967B5CF777A5BD2B126D09B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A181D8C4D11705A53B9D33E71613CB0 /* PBXTargetDependency */,
+			);
+			name = JTNavigationController;
+			productName = JTNavigationController;
+			productReference = 63C655C723022FA4C1E88A0384D14B7F /* JTNavigationController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 426FC9A04C2A0E02F09B8030B6F3D271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E40466060D01B737E2BE078C7C6CFBD /* JTNavigationController */,
+				1C4D21687E9ED8E7AA7E688456B2109C /* JTNavigationController-JTNavigationController */,
+				2BAC85881B02A46D3C0F78313E0B4C24 /* Pods-JTNavigationController_Example */,
+				8F849827EF250166563CF64F9AE27E10 /* Pods-JTNavigationController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B50D0626F71130ECED3E1EEE8AAFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC07173B671530740AB969F91F3FED94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D32C50B1E1A61FB8BA62325D97B7F9F /* JTNavigationController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FB4BCF31399C9832EEA2BA17742BC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44ABE469A0B66F4DDBD2C68D1E42DC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B2E866EA348A4696F6AED565BBA524 /* Pods-JTNavigationController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BC31EAC2B6F420F8CEE7CB5A1D1AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20BA15618B37D1D0F2A6B176FCDFF2E /* backImage@2x.png in Sources */,
+				DFE3A8DE809614CD432F1B3F7FEA4C49 /* backImage@3x.png in Sources */,
+				394B94848812C0E0ED5E117ADFA1846A /* JTNavigationController-dummy.m in Sources */,
+				750E4D31413D3216C25462F8EB1444CA /* JTNavigationController.m in Sources */,
+				5D53B50737889976AD6E6F8A5B2AB28B /* UIViewController+JTNavigationExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61D2817986C66FC4E5F3302D7B4D03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DDD1E1F06768F99A6F147464788188 /* Pods-JTNavigationController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A181D8C4D11705A53B9D33E71613CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JTNavigationController-JTNavigationController";
+			target = 1C4D21687E9ED8E7AA7E688456B2109C /* JTNavigationController-JTNavigationController */;
+			targetProxy = F3C4B6A216CD3D4F05BB1BE9D45A1982 /* PBXContainerItemProxy */;
+		};
+		BB4895A618B525315514B7BF89FBADE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTNavigationController;
+			target = 9E40466060D01B737E2BE078C7C6CFBD /* JTNavigationController */;
+			targetProxy = 0BC52545D1ED6EA0271DF9597B596D2C /* PBXContainerItemProxy */;
+		};
+		ED28EF5044E3845E5169A73B35A55CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTNavigationController;
+			target = 9E40466060D01B737E2BE078C7C6CFBD /* JTNavigationController */;
+			targetProxy = 1B0E464B547EE82C86296FDC70EAE1E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00C7F0129B40D01B6C29694A2344F323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55F0A0C370957546D6A733FF42B17B5 /* JTNavigationController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JTNavigationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06B68D5B86DAAB5612A40A6BDC6D0D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A95A2753BE57BE368868EE18EF0381B8 /* Pods-JTNavigationController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JTNavigationController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JTNavigationController_Example/Pods-JTNavigationController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JTNavigationController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		06D8A1AEB88F45E34583F12969956155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C8903C6AE67F2F0E923FACFDB1E16E3 /* Pods-JTNavigationController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JTNavigationController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JTNavigationController_Tests/Pods-JTNavigationController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JTNavigationController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		66E144F4C66D0935E5760CB2318E0C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55F0A0C370957546D6A733FF42B17B5 /* JTNavigationController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JTNavigationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7F4D6116E5D9AE7959F095F4ADA5C5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06C24D1D554BAF89D1CA86C88E0AB37 /* Pods-JTNavigationController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JTNavigationController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JTNavigationController_Tests/Pods-JTNavigationController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JTNavigationController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8702C5C095FE50913A7C706B565E3160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55F0A0C370957546D6A733FF42B17B5 /* JTNavigationController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTNavigationController/JTNavigationController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTNavigationController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTNavigationController/JTNavigationController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JTNavigationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF07FB97AA3B02759B465F69525E3AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55F0A0C370957546D6A733FF42B17B5 /* JTNavigationController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTNavigationController/JTNavigationController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTNavigationController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTNavigationController/JTNavigationController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JTNavigationController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8C57B8CE6A3346B8F3A1EE7740FF7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCA5A0A59285851F7ABA1B903BA5AF4 /* Pods-JTNavigationController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JTNavigationController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JTNavigationController_Example/Pods-JTNavigationController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JTNavigationController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A666DC0156D46AD4E59A6C4CF1C3B8F /* Build configuration list for PBXNativeTarget "Pods-JTNavigationController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B68D5B86DAAB5612A40A6BDC6D0D01 /* Debug */,
+				D8C57B8CE6A3346B8F3A1EE7740FF7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75736372018A95C71463FAFE0E2E55E1 /* Build configuration list for PBXNativeTarget "JTNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8702C5C095FE50913A7C706B565E3160 /* Debug */,
+				BF07FB97AA3B02759B465F69525E3AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC40279FC1D931078B7C8C52FD382DC1 /* Build configuration list for PBXNativeTarget "Pods-JTNavigationController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4D6116E5D9AE7959F095F4ADA5C5B4 /* Debug */,
+				06D8A1AEB88F45E34583F12969956155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD0C0F40817A38BDEE44A6AF3276B92 /* Build configuration list for PBXNativeTarget "JTNavigationController-JTNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E144F4C66D0935E5760CB2318E0C11 /* Debug */,
+				00C7F0129B40D01B6C29694A2344F323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

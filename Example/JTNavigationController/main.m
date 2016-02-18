@@ -2,15 +2,14 @@
 //  main.m
 //  JTNavigationController
 //
-//  Created by huhuhumian on 02/18/2016.
-//  Copyright (c) 2016 huhuhumian. All rights reserved.
+//  Created by Tian on 16/1/23.
+//  Copyright © 2016年 JiananTian. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 #import "JTAppDelegate.h"
 
-int main(int argc, char * argv[])
-{
+int main(int argc, char * argv[]) {
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([JTAppDelegate class]));
     }

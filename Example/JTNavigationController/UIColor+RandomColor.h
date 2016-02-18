@@ -1,5 +1,5 @@
 //
-//  JTViewController.h
+//  UIColor+RandomColor.h
 //  JTNavigationController
 //
 //  Created by Tian on 16/1/23.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JTViewController : UIViewController
+@interface UIColor (RandomColor)
+
++ (UIColor *)randomColor;
 
 @end
