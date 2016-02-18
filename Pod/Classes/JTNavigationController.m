@@ -40,10 +40,11 @@
     
     UIImage *backButtonImage = viewController.jt_navigationController.backButtonImage;
     
-    if (backButtonImage) {
-        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:backButtonImage style:UIBarButtonItemStylePlain target:self action:nil];
+    if (!backButtonImage) {
+        backButtonImage = [UIImage imageNamed:kDefaultBackImageName];
     }
-    [viewController.navigationItem.leftBarButtonItem setAction:@selector(didTapBackButton)];
+    
+    viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:backButtonImage style:UIBarButtonItemStylePlain target:self action:@selector(didTapBackButton)];
     
     [self.navigationController pushViewController:[JTWrapViewController wrapViewControllerWithViewController:viewController] animated:animated];
 }
