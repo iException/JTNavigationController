@@ -14,6 +14,8 @@
 		750E4D31413D3216C25462F8EB1444CA /* JTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D688DABB2AC70213E58837DD0E9F5AD1 /* JTNavigationController.m */; };
 		79629D640EB8395EB1A67312B9F42CFA /* Pods-JTNavigationController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27982AFC772BD52BC87D63A07C90DA71 /* Pods-JTNavigationController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F1CC65DB38DE312A8257F676277ADB9 /* UIViewController+JTNavigationExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0730638BA2E2C9FCA9616E553325D9DC /* UIViewController+JTNavigationExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABB307C71CB4DB08007C76C9 /* JTWeakObjectContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = ABB307C51CB4DB08007C76C9 /* JTWeakObjectContainer.h */; };
+		ABB307C81CB4DB08007C76C9 /* JTWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB307C61CB4DB08007C76C9 /* JTWeakObjectContainer.m */; };
 		AC87FB65FEFA945113550BEA3120B12D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		C20BA15618B37D1D0F2A6B176FCDFF2E /* backImage@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 648950DA5C10224821AEC2F7AC7C3344 /* backImage@2x.png */; };
 		C6B1AF4522FD76CBAC75664DAFF06B6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -80,6 +82,8 @@
 		904756A200AF1A1CDF2DE6AD1B958E44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A95A2753BE57BE368868EE18EF0381B8 /* Pods-JTNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A9611C80282B767C82CBC758F31D663E /* JTNavigationController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTNavigationController-dummy.m"; sourceTree = "<group>"; };
+		ABB307C51CB4DB08007C76C9 /* JTWeakObjectContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTWeakObjectContainer.h; sourceTree = "<group>"; };
+		ABB307C61CB4DB08007C76C9 /* JTWeakObjectContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTWeakObjectContainer.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C06C24D1D554BAF89D1CA86C88E0AB37 /* Pods-JTNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C55F0A0C370957546D6A733FF42B17B5 /* JTNavigationController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTNavigationController.xcconfig; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 		33BB4EE4560F76C6063A332F23E985AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				ABB307C51CB4DB08007C76C9 /* JTWeakObjectContainer.h */,
+				ABB307C61CB4DB08007C76C9 /* JTWeakObjectContainer.m */,
 				648950DA5C10224821AEC2F7AC7C3344 /* backImage@2x.png */,
 				08358740B58A21797E64FC7574224CE7 /* backImage@3x.png */,
 				09957A9E33B175B6FE5C5DB57C12805B /* JTNavigationController.h */,
@@ -284,6 +290,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB307C71CB4DB08007C76C9 /* JTWeakObjectContainer.h in Headers */,
 				D8571153D95E70CADE23F1D45155BA07 /* JTNavigationController-umbrella.h in Headers */,
 				E29F81316390D62E792CC610B0E354D0 /* JTNavigationController.h in Headers */,
 				9F1CC65DB38DE312A8257F676277ADB9 /* UIViewController+JTNavigationExtension.h in Headers */,
@@ -435,6 +442,7 @@
 				C20BA15618B37D1D0F2A6B176FCDFF2E /* backImage@2x.png in Sources */,
 				DFE3A8DE809614CD432F1B3F7FEA4C49 /* backImage@3x.png in Sources */,
 				394B94848812C0E0ED5E117ADFA1846A /* JTNavigationController-dummy.m in Sources */,
+				ABB307C81CB4DB08007C76C9 /* JTWeakObjectContainer.m in Sources */,
 				750E4D31413D3216C25462F8EB1444CA /* JTNavigationController.m in Sources */,
 				5D53B50737889976AD6E6F8A5B2AB28B /* UIViewController+JTNavigationExtension.m in Sources */,
 			);

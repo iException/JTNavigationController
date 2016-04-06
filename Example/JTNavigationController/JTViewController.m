@@ -49,5 +49,9 @@
     
 }
 
+- (void)dealloc
+{
+    NSLog(@"1234");
+}
 
 @end
