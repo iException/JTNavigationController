@@ -36,6 +36,7 @@
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     
     viewController.jt_navigationController = (JTNavigationController *)self.navigationController;
+    viewController.jt_fullScreenPopGestureEnabled = viewController.jt_navigationController.fullScreenPopGestureEnabled;
     
     UIImage *backButtonImage = viewController.jt_navigationController.backButtonImage;
     
@@ -95,6 +96,10 @@ static NSValue *jt_tabBarRectValue;
     if (self.tabBarController && !self.tabBarController.tabBar.hidden && jt_tabBarRectValue) {
         self.tabBarController.tabBar.frame = jt_tabBarRectValue.CGRectValue;
     }
+}
+
+- (BOOL)jt_fullScreenPopGestureEnabled {
+    return [self rootViewController].jt_fullScreenPopGestureEnabled;
 }
 
 - (BOOL)hidesBottomBarWhenPushed {
@@ -163,6 +168,40 @@ static NSValue *jt_tabBarRectValue;
     self.popPanGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self.popGestureDelegate action:action];
     self.popPanGesture.maximumNumberOfTouches = 1;
     
+}
+
+
+#pragma mark - UINavigationControllerDelegate
+
+- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    
+    BOOL isRootVC = viewController == navigationController.viewControllers.firstObject;
+    
+    if (viewController.jt_fullScreenPopGestureEnabled) {
+        if (isRootVC) {
+            [self.view removeGestureRecognizer:self.popPanGesture];
+        } else {
+            [self.view addGestureRecognizer:self.popPanGesture];
+        }
+        self.interactivePopGestureRecognizer.delegate = self.popGestureDelegate;
+        self.interactivePopGestureRecognizer.enabled = NO;
+    } else {
+        [self.view removeGestureRecognizer:self.popPanGesture];
+        self.interactivePopGestureRecognizer.delegate = self;
+        self.interactivePopGestureRecognizer.enabled = !isRootVC;
+    }
+    
+}
+
+#pragma mark - UIGestureRecognizerDelegate
+
+//修复有水平方向滚动的ScrollView时边缘返回手势失效的问题
+-(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
+    return YES;
+}
+
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldBeRequiredToFailByGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
+    return [gestureRecognizer isKindOfClass:UIScreenEdgePanGestureRecognizer.class];
 }
 
 #pragma mark - Getter

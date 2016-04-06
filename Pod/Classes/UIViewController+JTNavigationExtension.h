@@ -11,6 +11,8 @@
 
 @interface UIViewController (JTNavigationExtension)
 
+@property (nonatomic, assign) BOOL jt_fullScreenPopGestureEnabled;
+
 @property (nonatomic, weak) JTNavigationController *jt_navigationController;
 
 @end
