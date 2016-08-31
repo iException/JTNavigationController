@@ -29,8 +29,12 @@
 
 - (NSArray<UIViewController *> *)popToViewController:(UIViewController *)viewController animated:(BOOL)animated {
     JTNavigationController *jt_navigationController = viewController.jt_navigationController;
-    NSInteger index = [jt_navigationController.jt_viewControllers indexOfObject:viewController];
-    return [self.navigationController popToViewController:jt_navigationController.viewControllers[index] animated:animated];
+    if ([jt_navigationController.jt_viewControllers containsObject:viewController]) {
+        NSInteger index = [jt_navigationController.jt_viewControllers indexOfObject:viewController];
+        return [self.navigationController popToViewController:jt_navigationController.viewControllers[index] animated:animated];
+    } else {
+        return [self.navigationController popToRootViewControllerAnimated:YES];
+    }
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
